@@ -1,6 +1,6 @@
 {
   "name": "@diasraphael/ck-editor5-base64uploadadapter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -86,9 +86,7 @@
     "packages/**"
   ],
   "husky": {
-    "hooks": {
-      
-    }
+    "hooks": {}
   },
   "dependencies": {
     "@ckeditor/ckeditor5-font": "^11.2.1",
