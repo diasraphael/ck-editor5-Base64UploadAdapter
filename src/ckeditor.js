@@ -32,11 +32,11 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter';
-import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock';
 import Font from '@ckeditor/ckeditor5-font/src/font';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 
 export default class ClassicEditor extends ClassicEditorBase { }
 
@@ -63,7 +63,6 @@ ClassicEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	Base64UploadAdapter,
-	Alignment,
 	Highlight,
 	Underline,
 	Strikethrough,
@@ -71,7 +70,9 @@ ClassicEditor.builtinPlugins = [
 	Superscript,
 	Indent,
 	IndentBlock,
-	Font
+	Font,
+	Alignment,
+	ImageResize
 ];
 
 // Editor configuration.
@@ -107,7 +108,6 @@ ClassicEditor.defaultConfig = {
 			'redo'
 		]
 	},
-	plugins: [ Image, ImageToolbar, ImageCaption, ImageStyle, ImageResize ],
 	image: {
 		toolbar: [
 			'imageStyle:full',
