@@ -1,6 +1,9 @@
 CKEditor 5 classic editor build with base64upload Adapter
 =========================================================
 
+## Demo
+https://codesandbox.io/s/github/diasraphael/ckeditor-sample
+
 ## Quick start
 
 First, install the build from npm:
