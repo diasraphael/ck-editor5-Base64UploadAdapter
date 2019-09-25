@@ -47,6 +47,10 @@ ClassicEditor.builtinPlugins = [
 	Autoformat,
 	Bold,
 	Italic,
+	Underline,
+	Strikethrough,
+	Subscript,
+	Superscript,
 	BlockQuote,
 	CKFinder,
 	EasyImage,
@@ -56,6 +60,7 @@ ClassicEditor.builtinPlugins = [
 	ImageStyle,
 	ImageToolbar,
 	ImageUpload,
+	ImageResize,
 	List,
 	MediaEmbed,
 	Paragraph,
@@ -64,15 +69,10 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	Base64UploadAdapter,
 	Highlight,
-	Underline,
-	Strikethrough,
-	Subscript,
-	Superscript,
 	Indent,
 	IndentBlock,
 	Font,
 	Alignment,
-	ImageResize
 ];
 
 // Editor configuration.
@@ -111,8 +111,6 @@ ClassicEditor.defaultConfig = {
 	image: {
 		toolbar: [
 			'imageStyle:full',
-			'imageStyle:alignLeft',
-			'imageStyle:alignRight',
 			'|',
 			'imageTextAlternative'
 		]
