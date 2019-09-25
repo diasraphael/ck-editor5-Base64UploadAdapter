@@ -1,6 +1,6 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "12.4.0",
+  "name": "@diasraphael/ck-editor5-Base64UploadAdapter",
+  "version": "1.0.5",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
