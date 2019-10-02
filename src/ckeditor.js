@@ -99,7 +99,6 @@ ClassicEditor.defaultConfig = {
 			'bulletedList',
 			'numberedList',
 			'imageUpload',
-			'blockQuote',
 			'insertTable',
 			'undo',
 			'redo'
